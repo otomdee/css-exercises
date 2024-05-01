@@ -25,3 +25,49 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*my solution*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 12px;
+  gap: 8px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  align-self: center;
+}
+
+.input, .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+}
+
+.buttons {
+  gap: 4px;
+}

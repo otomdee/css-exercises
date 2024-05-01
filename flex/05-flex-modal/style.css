@@ -71,6 +71,30 @@ button.cancel {
 /*my solution */
 
 .icon {
+  flex-shrink: 0;
+}
+.header {
+  font-size: large;
+  font-weight: bold;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 16px;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text {
+  padding: 12px;
 }
