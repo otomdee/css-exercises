@@ -67,3 +67,10 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*my solution */
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
