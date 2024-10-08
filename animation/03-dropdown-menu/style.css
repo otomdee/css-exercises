@@ -18,6 +18,9 @@
   margin: 0;
   background-color: rgb(99, 97, 97);
 
+  animation: bounce 800ms 1 forwards;
+  transform: scaleY(0.1);
+  transform-origin: 50% 0%;
   display: none;
 }
 
@@ -29,4 +32,14 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+@keyframes bounce {
+  90% {
+    transform: scaleY(1.2);
+    transform-origin: 50% 0%;
+  }
 
+  100% {
+    transform: scaleY(1);
+    transform-origin: 50% 0%;
+  }
+}
